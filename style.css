@@ -62,7 +62,9 @@ body * {
 
 #profile img {
     width: 112px;
-    
+    border: 2px solid rgb(226, 122, 226);
+    border-radius: 50%;
+    padding: 2px;
 }
 
 #profile p {

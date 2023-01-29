@@ -13,12 +13,12 @@ function toggleMode() {
     
     if(html.classList.contains('light')) {
         //se tiver light mode, adicionar a imagem light
-        img.setAttribute('src', './assets/avatar-light.png')
+        img.setAttribute('src', './assets/avatar-light.jpg')
         //mudar alt
         img.setAttribute('alt', 'Mayk sorrindo com um fundo gradient azul e roxo usando óculos de sol')
     } else {
         //se tiver sem light mode, manter a imagem normal
-        img.setAttribute('src', './assets/avatar.png')
+        img.setAttribute('src', './assets/avatar.jpg')
         //mudar alt
         img.setAttribute('alt', 'Mayk sorrindo com um fundo gradient azul e roxo usando óculos')
     }
